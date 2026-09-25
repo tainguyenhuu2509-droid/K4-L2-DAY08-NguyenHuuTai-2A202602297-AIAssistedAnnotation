@@ -1,0 +1,7 @@
+"round","frame_id","object","action","rule_or_reason"
+"1","frame_0099.jpg","xe tối ở mép dưới bên trái","added","Xe bị cắt ở mép ảnh nhưng vẫn đủ để nhiều để nhận ra xe"
+"1","frame_0099.jpg","xe ở bên làn bên trái sát vách làn đường bên phải","added","Thấy thân xe và đủ ranh giới theo GUIDELINE_LABEL.md"
+"1","frame_0099.jpg","xe ở gần mép dưới bên làn bên trái sát làn bên phải ","edited","Xe bị nhoè do chuyển động, Vẫn gán nhãn, box ôm vùng nhoè của thân xe theo GUIDELINE_LABEL.md"
+"1","frame_0099.jpg","xe phía trên xe được miêu tả ngay trên","edited","Điều chỉnh box ôm đúng phần thân xe"
+"1","frame_0099.jpg","hai xe ngay sát nhau","edited+added","vẽ 2 box riêng cho 2 xe theo GUIDELINE_LABEL.md"
+"1","frame_0326.jpg","bên rìa trái làn xe bên trái","deleted","trong khung không có xe"
