@@ -4,10 +4,6 @@ Họ và tên: Nguyễn Hữu Tài
 
 Công cụ gán nhãn đã dùng: CVAT (AnyLabeling, CVAT, SAM hoặc sửa trực tiếp file nhãn)
 
-Sao chép file này thành `reports/REPORT.md` rồi điền vào các chỗ ĐIỀN. Mọi con số phải truy được
-từ `reports/rounds_table.md`, `outputs/selection_round1.csv`, `outputs/metrics_round*.json` hoặc
-`outputs/round*_diff.md`. Không coi nhãn test do mô hình tạo là chân lý tuyệt đối.
-
 ## 1. Dữ liệu và cách chia tập
 
 Tập chưa gán nhãn (pool) và tập kiểm thử (test set) được tách theo trục thời gian và có vùng đệm ở giữa để hạn chế việc hai tập chứa những khung hình gần như giống nhau của cùng một cảnh hoặc cùng một chiếc xe. Với video cố định, một chiếc xe có thể xuất hiện trong nhiều khung hình liên tiếp; nếu chia ngẫu nhiên, các ảnh rất giống nhau có thể bị phân vào cả tập train/pool và test. Khi đó mô hình có thể gặp lại những cảnh gần như đã thấy trước khi được đánh giá, làm số đo trên test trở nên lạc quan hơn và không phản ánh tốt khả năng xử lý ảnh thực sự chưa từng gặp.
